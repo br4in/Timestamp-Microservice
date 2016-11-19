@@ -8,16 +8,16 @@ API project: Timestamp Microservice
 
         3) If it does not contain a date or Unix timestamp, it returns null for those properties.
 
-Example usage:
+    Example usage:
 
-_Natural language date:
-https://api-project1-br4in.c9users.io/December%2015,%202015
+        _Natural language date:
+            https://api-project1-br4in.c9users.io/December%2015,%202015
 
-OR:
-https://api-project1-br4in.c9users.io/December 15, 2015
+        OR:
+            https://api-project1-br4in.c9users.io/December 15, 2015
 
-_Unix timestamp:
-https://api-project1-br4in.c9users.io/1450137600
+        _Unix timestamp:
+            https://api-project1-br4in.c9users.io/1450137600
 
-Example output:
-{ "unix": 1450137600, "natural": "December 15, 2015" } 
+    Example output:
+        { "unix": 1450137600, "natural": "December 15, 2015" }
