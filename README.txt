@@ -15,13 +15,13 @@ API project: Timestamp Microservice
     Example usage:
 
         _Natural language date:
-            https://api-project1-br4in.c9users.io/December%2015,%202015
+            'https://api-project1-br4in.c9users.io/December%2015,%202015'
 
         OR:
-            https://api-project1-br4in.c9users.io/December 15, 2015
+            'https://api-project1-br4in.c9users.io/December 15, 2015'
 
         _Unix timestamp:
-            https://api-project1-br4in.c9users.io/1450137600
+            'https://api-project1-br4in.c9users.io/1450137600'
 
     Example output:
         { "unix": 1450137600, "natural": "December 15, 2015" }
