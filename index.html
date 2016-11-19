@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Timestamp Microservice</title>
+        <!-- <link type="text/css" rel="stylesheet" href="style.css"> !-->
+    </head>
+    <body>
+        <h1>API project: Timestamp Microservice</h1>
+        <blockquote>
+                User stories:
+                <ul>1) I can pass a string as a parameter, and it will check to see whether that string 
+                contains either a unix timestamp or a natural language date (example: January 1, 2016)</ul>
+                <ul>2) If it does, it returns both the Unix timestamp and the natural language form of that date.</ul>
+                <ul>3) If it does not contain a date or Unix timestamp, it returns null for those properties.</ul>
+        </blockquote>
+            
+            <h3>Example usage:</h3>
+            <p>_Natural language date: </p>
+            <code>https://api-project1-br4in.c9users.io/November%2019,%202016</code><br>
+            <p>OR: </p>
+            <code>https://api-project1-br4in.c9users.io/November 19, 2016</code><br>
+            <p>_Unix timestamp: </p>
+            <code>https://api-project1-br4in.c9users.io/1479513600</code>
+            <h3>Example output:</h3>
+            <code>
+                {
+                  "unix": 1450137600,
+                  "natural": "November 19, 2016"
+                }
+            </code>
+    </body>
+</html>
